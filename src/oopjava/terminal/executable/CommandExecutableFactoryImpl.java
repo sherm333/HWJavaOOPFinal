@@ -12,7 +12,7 @@ import oopjava.zoo.Zoo;
 
 public class CommandExecutableFactoryImpl implements CommandExecutableFactory {
 
-    Zoo zoo;
+    private Zoo zoo;
 
     public CommandExecutableFactoryImpl(Zoo zoo) {
         this.zoo = zoo;
