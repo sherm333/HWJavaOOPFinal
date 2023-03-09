@@ -12,7 +12,7 @@ public class TerminalReader {
     private static TerminalReader terminalReader;
     private CommandParser commandParser;
     private final Zoo zoo;
-    View view = new View();
+    private View view = new View();
     private CommandExecutable commandExecutable;
 
     private TerminalReader(CommandParser commandParser, Zoo zoo) {
